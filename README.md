@@ -1,0 +1,2 @@
+# deque-using-memory-efficient-double-linked-list
+XOR linked list or a memory efficient Double Linked List can be used instead of ordinary linked list because an ordinary linked list stores addresses of the previous and next list items in each list node, requiring two pointers for two address fields. XOR linked list has only one pointer to traverse the list back and front. It uses bitwise XOR operator to store the front and rear pointer addresses. Instead of storing actual memory address, every node store the XOR address of previous and next nodes.
